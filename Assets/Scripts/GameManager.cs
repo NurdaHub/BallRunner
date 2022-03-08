@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; }
 
     public SpawnManager spawnManager;
+    public SpeedUpManager speedUpManager;
 
     private void Awake()
     {
@@ -27,6 +28,7 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         spawnManager.DeactivateAllPools();
+        speedUpManager.ResetSpeed();
         Time.timeScale = 0;
         UIManager.Instance.OnGameOver();
         PlayerController.Instance.canMove = false;

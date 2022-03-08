@@ -250,6 +250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liveManager: {fileID: 9693144}
+  pointCalculator: {fileID: 9693143}
   limitPosition: 3.5
   canMove: 0
 --- !u!114 &9693143
@@ -1101,6 +1102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnManager: {fileID: 1031339956}
+  speedUpManager: {fileID: 596970975}
 --- !u!4 &596970974
 Transform:
   m_ObjectHideFlags: 0

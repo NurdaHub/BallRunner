@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d5b1019e-f0ec-438f-b259-549fadca62fa" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerCollisionDetector.cs" root0="FORCE_HIGHLIGHTING" />
@@ -23,7 +35,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DetectCollisions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventDetector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpeedUp.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpeedUpManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveForward.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LiveManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PointCalculator.cs" />
@@ -33,10 +44,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpeedUpManager.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="261GawnkGjL1Zn0oAreZp65a8ep" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -83,6 +96,7 @@
       <workItem from="1646728417177" duration="3210000" />
       <workItem from="1646731902870" duration="394000" />
       <workItem from="1646759809614" duration="5026000" />
+      <workItem from="1646765638401" duration="859000" />
     </task>
     <servers />
   </component>
@@ -91,6 +105,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

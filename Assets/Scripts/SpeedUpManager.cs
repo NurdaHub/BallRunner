@@ -11,6 +11,8 @@ public class SpeedUpManager : MonoBehaviour
 
     private int pointsToSpeedUp;
     private int speedLevel;
+    private const int defaultSpeedLevel = 0;
+    private const float defaultSpeed = 4;
 
     private void Awake()
     {
@@ -41,5 +43,12 @@ public class SpeedUpManager : MonoBehaviour
 
             yield return null;
         }
+    }
+
+    public void ResetSpeed()
+    {
+        MoveForward.moveSpeed = defaultSpeed;
+        speedLevel = defaultSpeedLevel;
+        pointsToSpeedUp = pointsToSpeedUpList[0];
     }
 }
